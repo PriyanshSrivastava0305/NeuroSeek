@@ -1,46 +1,50 @@
-# 🚀 **NeuroSeek: AI-Powered Knowledge Retrieval & Search**  
+# 📰 AI-Powered News Search
 
-### 🔍 **Overview**  
-NeuroSeek is an AI-driven **search and retrieval pipeline** that leverages:  
-✅ **Web Scraping** – Extracts structured data efficiently while filtering noise.  
-✅ **Vector Databases (FAISS)** – Enables fast and relevant similarity search.  
-✅ **LLM Integration (Groq API)** – Generates intelligent responses from extracted data.  
-✅ **Agent Orchestration** – Uses multiple agents to optimize retrieval and response quality.  
-✅ **Human-in-the-Loop** – UI allows users to interactively refine and improve search results.  
-✅ **Real-Time Streaming** – Provides immediate feedback and response streaming.  
+An AI-powered news search tool using **Retrieval-Augmented Generation (RAG)** to fetch relevant news articles based on user queries.  
+Built with **LangChain, FAISS Vector Store, Llama3, and Streamlit**, this project allows users to search and refine AI-generated results dynamically.  
 
 ---
 
-## 📌 **Features**  
-
-🔹 **Intelligent Search** – Retrieves and ranks results based on vector similarity.  
-🔹 **Contextual AI Responses** – Uses LLMs to enhance search with dynamic answers.  
-🔹 **Adaptive Learning** – Filters ads/noise and prioritizes relevant content.  
-🔹 **Interactive UI (Streamlit)** – Enables user feedback and query refinement.  
-🔹 **Efficient Web Scraping** – Uses structured scraping techniques for clean data.  
-
----
-
-## 📁 **Project Structure**  
-
-```
-📂 neuroseek  
-│── 📜 app.py                # Streamlit UI for interactive search  
-│── 📜 rag.py                # Retrieval-Augmented Generation pipeline  
-│── 📜 scraper.py            # Web scraper for collecting knowledge base  
-│── 📜 vectorstore.py        # FAISS-based vector database operations  
-│── 📜 requirements.txt      # Required dependencies  
-│── 📜 README.md             # Project documentation  
-```
+## 🚀 Features
+- **Web Scraping**: Extracts relevant data from Wikipedia and other sources.
+- **Vector Search with FAISS**: Efficient similarity search using embeddings.
+- **RAG Pipeline**: Generates precise answers by retrieving relevant content.
+- **LLM Integration**: Uses **Llama3** for high-quality responses.
+- **Human-in-the-Loop UI**: Users can refine and regenerate responses dynamically.
+- **Streaming Support**: Real-time response generation in Streamlit.
 
 ---
 
-## 🛠️ **Setup & Installation**  
+## 📜 Sample Data
+The dataset is collected from **Wikipedia**, using the following page:  
+🔗 [Large Language Model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
+
+### **Example Queries**:
+1. *What is a large language model?*
+2. *How do LLMs work?*
+3. *What is the difference between RNN and Transformer models?*
+4. *What are the limitations of large language models?*
+
+---
+
+## 🛠️ Technologies Used
+- **Python 3.12**
+- **Streamlit** (UI)
+- **LangChain** (RAG Pipeline)
+- **FAISS** (Vector Search)
+- **Llama3** (LLM for response generation)
+- **BeautifulSoup** (Web Scraping)
+- **GroqCloud API** (LLM backend)
+- **OpenAI Whisper** (Speech-to-Text Support - Future)
+
+---
+
+## 🔧 Installation & Setup
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/neuroseek.git
-cd neuroseek
+git clone https://github.com/yourusername/ai-news-search.git
+cd ai-news-search
 ```
 
 ### **2️⃣ Install Dependencies**  
@@ -48,64 +52,27 @@ cd neuroseek
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Set Up API Keys**  
-Create a `.env` file in the root directory and add:  
-```
-GROQ_API_KEY=your_api_key_here
-```
-
----
-
-## 🚀 **How to Run**  
-
-### **Start the Web Scraper**  
-```bash
-python scraper.py
-```
-👉 This extracts and cleans data for search indexing.  
-
-### **Build the Vector Store**  
-```bash
-python vectorstore.py
-```
-👉 Indexes the scraped data into FAISS for fast retrieval.  
-
-### **Run the Search & RAG Pipeline**  
-```bash
-python rag.py
-```
-👉 Uses FAISS + LLM to generate AI-driven responses.  
-
-### **Launch the Streamlit UI**  
+### **3️⃣ Run the Application**  
 ```bash
 streamlit run app.py
 ```
-👉 Access it in your browser at `http://localhost:8501`.  
 
 ---
 
-## 🎯 **Evaluation Criteria & How We Excel**  
-
-| **Criterion** | **How We Meet It** |  
-|--------------|-------------------|  
-| ✅ **Web Scraping Proficiency** | Uses structured parsing with filters for noise-free extraction. |  
-| ✅ **Vector Databases** | FAISS indexing ensures fast similarity search. |  
-| ✅ **Agent Orchestration** | Multi-agent coordination optimizes retrieval & ranking. |  
-| ✅ **LLM Integration** | Groq API enables contextual AI-powered responses. |  
-| ✅ **Content Filtering** | Built-in mechanisms remove ads and redundant information. |  
-| ✅ **Code Efficiency** | Optimized for scalability and readability. |  
-| ✅ **Streaming & Feedback** | Real-time query processing with UI-driven improvements. |  
-| ⚡ **Human-in-the-Loop** | Interactive UI allows users to refine responses dynamically. |  
+## 🛠️ Future Work
+🚀 The project is evolving! Here’s what’s coming next:  
+✅ **Multiple URL Support** – Allow users to scrape multiple sources dynamically.  
+✅ **Multiple Model Support** – Let users switch between **Llama3, Mixtral, and Gemma2**.  
+✅ **Caching Layer** – Use Redis or local caching to **speed up repeated queries**.  
+✅ **Fine-Tuning** – Enhance model response accuracy with domain-specific data.  
+✅ **User Feedback System** – Implement a **rating** or **correction mechanism** for AI responses.  
 
 ---
 
-## 🔗 **Live Demo**  
-[Streamlit App](https://your-streamlit-app-link)  
-
-## 📜 **License**  
-MIT License  
+## 💡 Contribution
+Want to improve this project? Fork the repo, create a feature branch, and submit a PR!
 
 ---
 
-### 📢 **Contribute & Feedback**  
-Want to improve NeuroSeek? Open an issue or submit a PR! 😊  
+## 📌 License
+This project is licensed under the MIT License.
