@@ -58,7 +58,8 @@ streamlit run app.py
 ```
 
 ---
-
+<!-- 
+<<<<<<< HEAD
 ## 🛠️ Future Work
 🚀 The project is evolving! Here’s what’s coming next:  
 ✅ **Multiple URL Support** – Allow users to scrape multiple sources dynamically.  
@@ -75,4 +76,8 @@ Want to improve this project? Fork the repo, create a feature branch, and submit
 ---
 
 ## 📌 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. -->
+=======
+## 🔗 **Live Demo**  
+[Streamlit App](https://your-streamlit-app-link)  
+>>>>>>> ced726fc3a107327743d7bf56239e568613ec5f3
