@@ -84,28 +84,5 @@ streamlit run app.py
 
 ---
 
-## 🎯 **Evaluation Criteria & How We Excel**  
-
-| **Criterion** | **How We Meet It** |  
-|--------------|-------------------|  
-| ✅ **Web Scraping Proficiency** | Uses structured parsing with filters for noise-free extraction. |  
-| ✅ **Vector Databases** | FAISS indexing ensures fast similarity search. |  
-| ✅ **Agent Orchestration** | Multi-agent coordination optimizes retrieval & ranking. |  
-| ✅ **LLM Integration** | Groq API enables contextual AI-powered responses. |  
-| ✅ **Content Filtering** | Built-in mechanisms remove ads and redundant information. |  
-| ✅ **Code Efficiency** | Optimized for scalability and readability. |  
-| ✅ **Streaming & Feedback** | Real-time query processing with UI-driven improvements. |  
-| ⚡ **Human-in-the-Loop** | Interactive UI allows users to refine responses dynamically. |  
-
----
-
 ## 🔗 **Live Demo**  
 [Streamlit App](https://your-streamlit-app-link)  
-
-## 📜 **License**  
-MIT License  
-
----
-
-### 📢 **Contribute & Feedback**  
-Want to improve NeuroSeek? Open an issue or submit a PR! 😊  
