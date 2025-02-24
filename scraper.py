@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def scrape_articles(base_url="https://example.com/news", num_pages=3):
+def scrape_articles(base_url="https://en.wikipedia.org/wiki/Large_language_model", num_pages=3):
     """Scrape news articles and save as JSON."""
     articles = []
 
@@ -23,4 +23,4 @@ def scrape_articles(base_url="https://example.com/news", num_pages=3):
     print(f"✅ Scraped {len(articles)} articles and saved to scraped_articles.json")
 
 if __name__ == "__main__":
-    scrap
+    scrape_articles()
