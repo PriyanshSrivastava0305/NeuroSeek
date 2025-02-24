@@ -1,6 +1,6 @@
 import requests
 import os
-from langchain_community.vectorstores import FAISS
+from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 
