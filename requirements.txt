@@ -1,8 +1,5 @@
-streamlit==1.32.0
-langchain==0.1.16
-groq==0.7.0
-newspaper3k==0.2.8
-faiss-cpu==1.7.4
-sentence-transformers==2.5.1
-python-dotenv==1.0.0
-torch>=2.0,<2.5
+streamlit
+requests
+bs4
+langchain
+sentence-transformers
