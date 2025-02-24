@@ -5,4 +5,4 @@ newspaper3k==0.2.8
 faiss-cpu==1.7.4
 sentence-transformers==2.5.1
 python-dotenv==1.0.0
-torch==2.0.1+cpu  # 👈 Force CPU PyTorch
+torch>=2.0,<2.5
