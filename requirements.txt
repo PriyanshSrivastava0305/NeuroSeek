@@ -3,3 +3,6 @@ requests
 bs4
 langchain
 sentence-transformers
+langchain
+langchain-community
+faiss-cpu

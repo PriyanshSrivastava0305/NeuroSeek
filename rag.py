@@ -1,6 +1,9 @@
 import requests
+
 import os
-from langchain.vectorstores import FAISS
+os.system("pip install --upgrade faiss-cpu langchain-community")
+
+from langchain_community.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 
