@@ -1,4 +1,4 @@
-# 📰 AI-Powered News Search
+# 🚀 NeuroSeek: AI-Powered Knowledge Retrieval & Search
 
 An AI-powered news search tool using **Retrieval-Augmented Generation (RAG)** to fetch relevant news articles based on user queries.  
 Built with **LangChain, FAISS Vector Store, Llama3, and Streamlit**, this project allows users to search and refine AI-generated results dynamically.  
@@ -59,7 +59,6 @@ streamlit run app.py
 
 ---
 
-<<<<<<< HEAD
 ## 🛠️ Future Work
 🚀 The project is evolving! Here’s what’s coming next:  
 ✅ **Multiple URL Support** – Allow users to scrape multiple sources dynamically.  
@@ -68,16 +67,11 @@ streamlit run app.py
 ✅ **Fine-Tuning** – Enhance model response accuracy with domain-specific data.  
 ✅ **User Feedback System** – Implement a **rating** or **correction mechanism** for AI responses.  
 
----
 
-## 💡 Contribution
-Want to improve this project? Fork the repo, create a feature branch, and submit a PR!
-
----
 
 ## 📌 License
 This project is licensed under the MIT License.
 =======
 ## 🔗 **Live Demo**  
-[Streamlit App](https://your-streamlit-app-link)  
->>>>>>> ced726fc3a107327743d7bf56239e568613ec5f3
+[Streamlit App](https://neuroseek354.streamlit.app/)  
+
