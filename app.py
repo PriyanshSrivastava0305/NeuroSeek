@@ -30,12 +30,9 @@ if st.button("Search"):
 
                 # Refinement Button
                 if st.button("🔄 Regenerate Response"):
-                    with st.spinner("Regenerating response..."):
-                        try:
-                            st.session_state.response = generate_answer(st.session_state.query)
-                        except Exception as e:
-                            st.error(f"Error: {str(e)}")
-
                     st.experimental_rerun()
+
+            except Exception as e:
+                st.error(f"Error: {str(e)}")
     else:
         st.warning("Please enter a search query.")

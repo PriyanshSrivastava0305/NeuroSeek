@@ -58,7 +58,7 @@ streamlit run app.py
 ```
 
 ---
-<!-- 
+
 <<<<<<< HEAD
 ## 🛠️ Future Work
 🚀 The project is evolving! Here’s what’s coming next:  
@@ -76,7 +76,7 @@ Want to improve this project? Fork the repo, create a feature branch, and submit
 ---
 
 ## 📌 License
-This project is licensed under the MIT License. -->
+This project is licensed under the MIT License.
 =======
 ## 🔗 **Live Demo**  
 [Streamlit App](https://your-streamlit-app-link)  
